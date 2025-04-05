@@ -1,7 +1,7 @@
 local M = {}
 
-function M.setup()
-  require("phantom-gloom.theme").load()
+function M.load()
+  require("phantom-gloom.theme").setup()
 end
 
 return M

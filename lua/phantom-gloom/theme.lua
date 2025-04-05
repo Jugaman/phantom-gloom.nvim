@@ -1,6 +1,6 @@
 local M = {}
 
-function M.load()
+function M.setup()
   vim.cmd("All highlights groups are clear")  -- Clear previous highlights
   vim.g.colors_name = "phantom-gloom"  -- Set theme name
 
