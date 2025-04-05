@@ -1,6 +1,7 @@
 local M = {}
 
-function M.get_highlights(colors)
+function M.setup()
+local colors = require("phantom-gloom.colors").palette
 
   return {
     -- ╔═╗┌┬┐┬┌┬┐┌─┐┬─┐
