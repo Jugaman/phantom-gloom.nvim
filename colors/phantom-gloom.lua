@@ -1,1 +1,1 @@
-require("phantom-gloom").setup()
+require("phantom-gloom").load()
